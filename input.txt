@@ -1,0 +1,4 @@
+0-1,2-I am node 0first message
+2-1,0-I am node 2first message
+2-1,0-I am node 2second message
+0-1,2-I am node 0second message
