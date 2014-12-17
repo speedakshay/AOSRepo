@@ -1,16 +1,16 @@
-/******************************************************************
-Author  - Akshay Patekar
-Descrition - This program is the implementation Skeen's algorithm 
-			 for totally ordered multicast system.
-			 This program needs to be running on al the machines
-			 in the cluster
-Input - config.txt - contains mapping of node number 
-					and IpAddresses of the machines in the cluster
-		input.txt - contains messages and multicast group to 
-					whom messages will be delivered
-Output - Messages will be delivered to machines and displayed 
-		 on the console of respective machine. 
-******************************************************************/
+/*********************************************************************
+Author  - Akshay Patekar					     *
+Descrition - This program is the implementation of Skeen's algorithm *
+	     for totally ordered multicast system.		     *
+	     This program needs to be running on all the machines     *
+	     in the cluster					     *	
+Input - config.txt - contains mapping of node number 		     *
+	       	     and IpAddresses of the machines in the cluster  *
+	input.txt - contains messages and multicast group to 	     *
+		    whom messages will be delivered		     *
+Output - Messages will be delivered to machines and displayed 	     *
+         on the console of respective machine. 			     *
+**********************************************************************/
 
 import java.io.BufferedWriter;
 import java.io.File;
